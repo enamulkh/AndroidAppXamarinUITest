@@ -19,7 +19,7 @@ namespace AndroidAppXamarinUITest
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-            AppCenter.Start("2a70aa9d-ed34-4e01-8def-9ac5852e4c5d",
+            AppCenter.Start("ea0213a0-17ef-4034-9346-ca33311ffa46",
                        typeof(Analytics), typeof(Crashes));
 
             Button button = FindViewById<Button>(Resource.Id.button1);
