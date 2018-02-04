@@ -26,6 +26,27 @@ namespace AndroidAppXamarinUITest
 		
 		public static void UpdateIdValues()
 		{
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_dialog_actioned_on_disabled_toast = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_dialog_actioned_on_disabled_toast;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_download_progress_number_format = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_download_progress_number_format;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_downloading_mandatory_update = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_downloading_mandatory_update;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_install = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_install;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_install_ready_message = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_install_ready_message;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_install_ready_title = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_install_ready_title;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_notification_category = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_notification_category;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_unknown_sources_dialog_message = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_unknown_sources_dialog_message;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_unknown_sources_dialog_settings = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_unknown_sources_dialog_settings;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_download = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_update_dialog_download;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_message_mandatory = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_update_dialog_message_mandatory;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_message_optional = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_update_dialog_message_optional;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_postpone = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_update_dialog_postpone;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_title = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_update_dialog_title;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_view_release_notes = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_update_dialog_view_release_notes;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_ignore = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_update_failed_dialog_ignore;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_message = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_update_failed_dialog_message;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_reinstall = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_update_failed_dialog_reinstall;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_title = global::AndroidAppXamarinUITest.Resource.String.appcenter_distribute_update_failed_dialog_title;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.ic_stat_notify_dot = global::AndroidAppXamarinUITest.Resource.Drawable.ic_stat_notify_dot;
+			global::Microsoft.AppCenter.Push.Android.Resource.String.library_name = global::AndroidAppXamarinUITest.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -41,11 +62,46 @@ namespace AndroidAppXamarinUITest
 			}
 		}
 		
-		public partial class Layout
+		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			public const int ic_stat_notify_dot = 2130837504;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050001
+			public const int button1 = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int textView1 = 2131034112;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
+		public partial class Layout
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int Main = 2130903040;
 			
 			static Layout()
 			{
@@ -60,8 +116,68 @@ namespace AndroidAppXamarinUITest
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			// aapt resource value: 0x7f040014
+			public const int app_name = 2130968596;
+			
+			// aapt resource value: 0x7f040001
+			public const int appcenter_distribute_dialog_actioned_on_disabled_toast = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int appcenter_distribute_download_progress_number_format = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int appcenter_distribute_downloading_mandatory_update = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int appcenter_distribute_install = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int appcenter_distribute_install_ready_message = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int appcenter_distribute_install_ready_title = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int appcenter_distribute_notification_category = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int appcenter_distribute_unknown_sources_dialog_message = 2130968584;
+			
+			// aapt resource value: 0x7f040009
+			public const int appcenter_distribute_unknown_sources_dialog_settings = 2130968585;
+			
+			// aapt resource value: 0x7f04000a
+			public const int appcenter_distribute_update_dialog_download = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int appcenter_distribute_update_dialog_message_mandatory = 2130968587;
+			
+			// aapt resource value: 0x7f04000c
+			public const int appcenter_distribute_update_dialog_message_optional = 2130968588;
+			
+			// aapt resource value: 0x7f04000d
+			public const int appcenter_distribute_update_dialog_postpone = 2130968589;
+			
+			// aapt resource value: 0x7f04000e
+			public const int appcenter_distribute_update_dialog_title = 2130968590;
+			
+			// aapt resource value: 0x7f04000f
+			public const int appcenter_distribute_update_dialog_view_release_notes = 2130968591;
+			
+			// aapt resource value: 0x7f040010
+			public const int appcenter_distribute_update_failed_dialog_ignore = 2130968592;
+			
+			// aapt resource value: 0x7f040011
+			public const int appcenter_distribute_update_failed_dialog_message = 2130968593;
+			
+			// aapt resource value: 0x7f040012
+			public const int appcenter_distribute_update_failed_dialog_reinstall = 2130968594;
+			
+			// aapt resource value: 0x7f040013
+			public const int appcenter_distribute_update_failed_dialog_title = 2130968595;
+			
+			// aapt resource value: 0x7f040000
+			public const int library_name = 2130968576;
 			
 			static String()
 			{
