@@ -84,6 +84,9 @@ namespace AndroidAppXamarinUITest
 			// aapt resource value: 0x7f050001
 			public const int button1 = 2131034113;
 			
+			// aapt resource value: 0x7f050002
+			public const int editText1 = 2131034114;
+			
 			// aapt resource value: 0x7f050000
 			public const int textView1 = 2131034112;
 			

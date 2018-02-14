@@ -30,7 +30,7 @@ namespace AndroidAppXamarinUITest
 
         private void Button_Click(object sender, EventArgs e)
         {
-            EditText textEntry = FindViewById<EditText>(Resource.Id.textView1);
+            TextView textEntry = FindViewById<TextView>(Resource.Id.textView1);
             textEntry.Text = "Button Click is working";
         }
     }
